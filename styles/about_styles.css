@@ -1,13 +1,21 @@
-table.main {
-            border: 1px solid rgb(255, 0, 0);
+table.header {
+            border: 5px ridge rgba(105, 140, 255, 0.5);
             font-family: Georgia, 'Times New Roman', Times, serif;
+            background: rgba(176, 236, 163, 0.5);
+    
 }
-table.second {
-              border: 1px solid rgb(255, 0, 0);
+table.main {
+              border: 5px ridge rgba(105, 140, 255, 0.5);
               font-family: Georgia, 'Times New Roman', Times, serif;
+              background-color: rgba(151, 194, 211, 0.5);
+}
+table.footer {
+              border: 5px ridge rgba(105, 140, 255, 0.5);
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              background-color: rgba(189, 151, 211, 0.5);
 }
 td, th {
-        border: 1px solid rgb(255, 0, 0);
+        border: 5px ridge rgba(105, 140, 255, 0.5);
 }
 td.name { 
          color: blue;
@@ -35,5 +43,8 @@ td.name {
               font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
-    background-image:url(../images/background.jpg)
+      background-image:url(../images/background.jpg)
+}
+li.display {
+            display: inline;
 }
