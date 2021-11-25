@@ -17,13 +17,7 @@ block2.style.height = '200px'
 
 document.querySelector('body').insertBefore(block2, block1)
 
-let img = document.createElement('img')
 
-img.style.width = '200px'
-img.style.height = '200px'
-img.style.float = 'left'
-
-document.querySelector('main').append(img)
 
 let ul = document.createElement('ul')
 
