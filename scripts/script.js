@@ -19,7 +19,6 @@ document.querySelector('body').insertBefore(block2, block1)
 
 let img = document.createElement('img')
 
-img.src = '../images/JavaScript wiki.png'
 img.style.width = '200px'
 img.style.height = '200px'
 img.style.float = 'left'
