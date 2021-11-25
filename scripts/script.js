@@ -31,7 +31,7 @@ let ul = document.createElement('ul')
 for (var i=0; i<4; i++) {
 
     var li=document.createElement('li');
-    block1.innerHTML = '<a href="pages/html_layout.html">О языке HTML</a>'
+    li.innerHTML = '<a href="pages/html_layout.html">О языке HTML</a>'
     ul.appendChild(li);
 
 }
